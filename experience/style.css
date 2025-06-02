@@ -464,3 +464,96 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+/* ===== Tawk.to Live Chat Custom Styling ===== */
+
+/* Position chat widget to left corner */
+#tawk-bubble-container,
+div[id*="tawk-chat"],
+iframe[src*="tawk.to"] {
+  left: 20px !important;
+  right: auto !important;
+}
+
+/* Target the main chat widget container */
+.tawk-min-container {
+  left: 20px !important;
+  right: auto !important;
+}
+
+/* Style the chat bubble with yellow color */
+.tawk-chat-bubble,
+#tawk-chat-widget-minimized {
+  background-color: #FFD700 !important;
+  background: linear-gradient(135deg, #FFD700, #FFA500) !important;
+  border: 2px solid #FFA500 !important;
+}
+
+/* Chat button styling */
+.tawk-chat-button {
+  background-color: #FFD700 !important;
+  border: 2px solid #FFA500 !important;
+}
+
+.tawk-chat-button:hover {
+  background-color: #FFA500 !important;
+  transform: scale(1.05);
+}
+
+/* Chat panel border styling */
+.tawk-chat-panel {
+  border-color: #FFD700 !important;
+}
+
+/* Override any default positioning */
+div[id*="tawk"] {
+  left: 20px !important;
+  right: auto !important;
+  bottom: 20px !important;
+}
+
+/* Ensure proper z-index */
+#tawk-chat-widget-frame,
+#tawk-bubble-container {
+  z-index: 999 !important;
+}
+
+/* Mobile responsive positioning */
+@media screen and (max-width: 768px) {
+  #tawk-bubble-container,
+  div[id*="tawk-chat"],
+  iframe[src*="tawk.to"] {
+    left: 10px !important;
+    right: auto !important;
+  }
+  
+  .tawk-min-container {
+    left: 10px !important;
+    right: auto !important;
+  }
+}
+
+/* Additional yellow theme styling */
+.tawk-header {
+  background-color: #FFD700 !important;
+}
+
+.tawk-name {
+  color: #000 !important;
+}
+
+/* Custom animation for chat bubble */
+.tawk-chat-bubble {
+  animation: tawkPulse 2s infinite;
+}
+
+@keyframes tawkPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 215, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+  }
+}

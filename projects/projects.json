@@ -32,7 +32,7 @@
   {
     "name": "LandVerse - Real Estate Platform",
     "desc": "Comprehensive real estate platform offering property listings, virtual tours, mortgage calculators, and seamless buyer-seller connections.",
-    "image": "projects/LandVerse.jpg",
+    "image": "landverse",
     "category": "webdev",
     "links": {
       "view": "#",
@@ -132,7 +132,7 @@
   {
     "name": "Basic Jarvis Model",
     "desc": "Voice-activated AI assistant capable of performing basic tasks, answering queries, and executing commands using natural language processing.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrWsGHdzldLeNp5qPMa80B_jiYzDpXxSZHg&s",
+    "image": "jarvis",
     "category": "ml",
     "links": {
       "view": "#",

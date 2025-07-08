@@ -3,7 +3,7 @@
     "name": "Uber Clone",
     "desc": "Full-featured ride-sharing application clone with real-time booking, driver matching, and payment integration. Built with modern web technologies.",
     "image": "uberclone",
-    "category": "webdev",
+    "category": "mern",
     "links": {
       "view": "#",
       "code": "https://github.com/manitejabayya/Uber-Clone"
@@ -13,7 +13,7 @@
     "name": "Gemini AI Clone",
     "desc": "AI-powered conversational interface clone featuring natural language processing and intelligent responses. Interactive and user-friendly design.",
     "image": "geminiclone",
-    "category": "webdev",
+    "category": "mern",
     "links": {
       "view": "#",
       "code": "https://github.com/manitejabayya/Gemini-AI-Clone"
@@ -43,7 +43,7 @@
     "name": "Spotify Clone",
     "desc": "Music streaming application clone with playlist management, audio controls, search functionality, and responsive design for seamless music experience.",
     "image": "spotifyclone",
-    "category": "webdev",
+    "category": "mern",
     "links": {
       "view": "#",
       "code": "https://github.com/manitejabayya/Spotify-Clone"

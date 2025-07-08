@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Bayya Maniteja Yadav</title>
+    <meta name="description" content="Professional web development, technical writing, and content creation services by Maniteja">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fa-solid fa-m"></i> Maniteja</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#education">Education</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#work">Work</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>My <span>Services</span></h1>
+            <p>Professional solutions tailored to your digital needs</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="section-title">What I <span>Offer</span></h2>
+        
+        <div class="services-container">
+            <!-- Service Card 1 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Custom websites built with modern technologies to ensure fast, responsive, and secure online presence.</p>
+                
+                <div class="service-features">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+                        <li><i class="fas fa-check-circle"></i> SEO Optimized</li>
+                        <li><i class="fas fa-check-circle"></i> Performance Focused</li>
+                        <li><i class="fas fa-check-circle"></i> CMS Integration</li>
+                    </ul>
+                </div>
+                
+                <div class="service-price">
+                    <span class="price">Contact To Discuss Price</span>
+                </div>
+                
+                <button class="service-btn" onclick="openModal('Web Development')">Get Started</button>
+            </div>
+            
+            <!-- Service Card 2 (Featured) -->
+            <div class="service-card featured">
+                <div class="featured-badge">Popular</div>
+                <div class="service-icon">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h3>Technical Writing</h3>
+                <p>High-quality technical documentation, tutorials, and articles that clearly explain complex concepts.</p>
+                
+                <div class="service-features">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Well-Researched</li>
+                        <li><i class="fas fa-check-circle"></i> SEO Optimized</li>
+                        <li><i class="fas fa-check-circle"></i> Engaging Style</li>
+                        <li><i class="fas fa-check-circle"></i> Technical Accuracy</li>
+                    </ul>
+                </div>
+                
+                <div class="service-price">
+                    <span class="price">Contact To Discuss Price</span>
+                </div>
+                
+                <button class="service-btn" onclick="openModal('Technical Writing')">Get Started</button>
+            </div>
+            
+            <!-- Service Card 3 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3>Content Creation</h3>
+                <p>Engaging content that captures your brand's voice and connects with your target audience.</p>
+                
+                <div class="service-features">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Blog Posts</li>
+                        <li><i class="fas fa-check-circle"></i> Social Media Content</li>
+                        <li><i class="fas fa-check-circle"></i> Email Campaigns</li>
+                        <li><i class="fas fa-check-circle"></i> Brand Storytelling</li>
+                    </ul>
+                </div>
+                
+                <div class="service-price">
+                    <span class="price">Contact To Discuss Price</span>
+                </div>
+                
+                <button class="service-btn" onclick="openModal('Content Creation')">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <h2 class="section-title">My <span>Process</span></h2>
+        
+        <div class="process-container">
+            <!-- Step 1 -->
+            <div class="process-step">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>Discovery</h3>
+                    <p>We'll discuss your project requirements, goals, and expectations to ensure complete understanding.</p>
+                </div>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="process-step">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>Planning</h3>
+                    <p>I'll create a detailed plan with timelines, milestones, and deliverables for your approval.</p>
+                </div>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="process-step">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>Execution</h3>
+                    <p>Your project will be developed with regular updates and opportunities for feedback.</p>
+                </div>
+            </div>
+            
+            <!-- Step 4 -->
+            <div class="process-step">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3>Delivery</h3>
+                    <p>Final delivery with thorough testing, training if needed, and post-launch support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose" id="why-choose">
+        <h2 class="section-title">Why <span>Choose Me</span></h2>
+        
+        <div class="benefits-grid">
+            <!-- Benefit 1 -->
+            <div class="benefit">
+                <i class="fas fa-medal"></i>
+                <h3>Quality Assurance</h3>
+                <p>Every project undergoes rigorous testing to ensure flawless performance and user experience.</p>
+            </div>
+            
+            <!-- Benefit 2 -->
+            <div class="benefit">
+                <i class="fas fa-clock"></i>
+                <h3>On-Time Delivery</h3>
+                <p>I respect deadlines and deliver projects on time without compromising quality.</p>
+            </div>
+            
+            <!-- Benefit 3 -->
+            <div class="benefit">
+                <i class="fas fa-headset"></i>
+                <h3>Dedicated Support</h3>
+                <p>Continued support after project completion to address any questions or needs.</p>
+            </div>
+            
+            <!-- Benefit 4 -->
+            <div class="benefit">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovative Solutions</h3>
+                <p>Creative approaches to solve problems and deliver exceptional results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+        <div class="cta-content">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's discuss how I can help bring your ideas to life.</p>
+            <a href="#" class="cta-btn" onclick="openModal('General Inquiry')">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Service Inquiry</h2>
+            
+            <form id="serviceForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Service Interested In</label>
+                    <input type="text" id="service" name="service" readonly>
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget">Project Budget (USD)</label>
+                    <select id="budget" name="budget">
+                        <option value="">Select Budget Range</option>
+                        <option value="100-500">$100 - $500</option>
+                        <option value="500-1000">$500 - $1,000</option>
+                        <option value="1000-5000">$1,000 - $5,000</option>
+                        <option value="5000+">$5,000+</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Inquiry</button>
+            </form>
+        </div>
+    </div>
+
+   <!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Maniteja's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="../index.html#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="../index.html#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="../index.html#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="../index.html#services"><i class="fas fa-chevron-circle-right"></i> services</a>
+          <a href="../index.html#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="../index.html#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 9912344319</p>
+          <p> <i class="fas fa-envelope"></i>bayyamanitejayadav369@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Hyderabad, India</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/bayya-maniteja-406bb32a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/manitejabayya" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:bayyamanitejayadav369@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://x.com/Manitej369?t=f7GgNmkIiPBvWEvLj67RxA&s=09" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="https://t.me/+919000073811" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> Bayya Maniteja</a></h1>
+
+</section>
+<!-- footer section ends -->
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.querySelector('#menu');
+        const navbar = document.querySelector('.navbar');
+        
+        menuBtn.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+            menuBtn.classList.toggle('fa-times');
+        });
+        
+        // Sticky Header on Scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+            
+            // Show/hide scroll to top button
+            const scrollTop = document.querySelector('.scroll-top');
+            scrollTop.classList.toggle('active', window.scrollY > 500);
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.navbar ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                navbar.classList.remove('active');
+                menuBtn.classList.remove('fa-times');
+            });
+        });
+        
+        // Modal Functionality
+        const modal = document.getElementById('serviceModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const serviceInput = document.getElementById('service');
+        const closeBtn = document.querySelector('.close');
+        
+        function openModal(service) {
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            modalTitle.textContent = `${service} Inquiry`;
+            serviceInput.value = service;
+        }
+        
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+        
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        // Form Submission
+        const form = document.getElementById('serviceForm');
+        
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Here you would typically send the form data to a server
+            // For demo purposes, we'll just show an alert
+            alert('Thank you for your inquiry! I will get back to you soon.');
+            
+            // Reset form and close modal
+            form.reset();
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Scroll to Top
+        document.querySelector('.scroll-top').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Animation on Scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const windowHeight = window.innerHeight;
+            const scrollPosition = window.scrollY;
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                
+                if (scrollPosition > sectionTop - windowHeight + 100) {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }
+            });
+        });
+        
+        // Initialize sections with opacity 0 for animation
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(50px)';
+            section.style.transition = 'all 0.8s ease';
+        });
+        
+        // Trigger initial animation for hero section
+        document.querySelector('.hero').style.opacity = '1';
+    </script>
+</body>
+</html>

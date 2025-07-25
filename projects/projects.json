@@ -15,7 +15,7 @@
     "image": "geminiclone",
     "category": "mern",
     "links": {
-      "view": "#",
+      "view": "https://gemini-ai-cclone.netlify.app/",
       "code": "https://github.com/manitejabayya/Gemini-AI-Clone"
     }
   },
@@ -23,9 +23,9 @@
     "name": "Air Quality Checker",
     "desc": "Real-time air quality monitoring application that provides current pollution levels, health recommendations, and environmental data visualization.",
     "image": "airquality",
-    "category": "webdev",
+    "category": "basicweb",
     "links": {
-      "view": "#",
+      "view": "https://airqualitycheck.netlify.app/",
       "code": "https://github.com/manitejabayya/Air_Quality_checker"
     }
   },
@@ -33,7 +33,7 @@
     "name": "LandVerse - Real Estate Platform",
     "desc": "Comprehensive real estate platform offering property listings, virtual tours, mortgage calculators, and seamless buyer-seller connections.",
     "image": "landverse",
-    "category": "webdev",
+    "category": "basicweb",
     "links": {
       "view": "#",
       "code": "https://github.com/manitejabayya/LandVerse"
@@ -146,7 +146,7 @@
   "category": "mern",
   "links": {
     "view": "#",
-    "code": "#"
+    "code": "https://github.com/Pratham-Sharma20/Fantasy"
   }
 },
 {
@@ -156,7 +156,7 @@
   "category": "mern",
   "links": {
     "view": "#",
-    "code": "#"
+    "code": "https://github.com/Pratham-Sharma20/WensPaper"
   }
 },
 {
@@ -166,7 +166,7 @@
   "category": "mern",
   "links": {
     "view": "#",
-    "code": "#"
+    "code": "https://github.com/faisalbin09/istems-vibrant-platform"
   }
 },
 {
@@ -197,6 +197,27 @@
   "links": {
     "view": "#",
     "code": "https://github.com/manitejabayya/Child_Study-App"
+  }
+}
+,
+{
+  "name": "QuizPro - Real-time Quiz App",
+  "desc": "A responsive web-based quiz application built with HTML, CSS, and JavaScript. It integrates external APIs to fetch real-time multiple-choice questions.",
+  "image": "Quiz",
+  "category": "basicweb",
+  "links": {
+    "view": "https://quizspro.netlify.app/",
+    "code": "https://github.com/manitejabayya/Quiz_Pro"
+  }
+},
+{
+  "name": "DevFolio - Personal Portfolio Website",
+  "desc": "A sleek and modern personal portfolio website built with HTML, CSS, JavaScript, and JSON. Features dynamic project rendering.",
+  "image": "Image2",
+  "category": "basicweb",
+  "links": {
+    "view": "https://bayyamaniteja.netlify.app/",
+    "code": "https://github.com/manitejabayya/portfolio-maniteja"
   }
 }
 

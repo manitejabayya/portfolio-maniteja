@@ -139,36 +139,7 @@
       "code": "https://github.com/manitejabayya/Ai-tool"
     }
   },
-  {
-  "name": "Fantasy - Dating Site",
-  "desc": "A modern dating platform built using the MERN stack, featuring real-time chat, secure authentication, and profile matchmaking.",
-  "image": "fantasy",
-  "category": "mern",
-  "links": {
-    "view": "#",
-    "code": "https://github.com/Pratham-Sharma20/Fantasy"
-  }
-},
-{
-  "name": "WensPaper - News Site",
-  "desc": "A dynamic news portal delivering the latest headlines, curated articles, and trending stories with a responsive and accessible layout.",
-  "image": "Wpaper",
-  "category": "mern",
-  "links": {
-    "view": "#",
-    "code": "https://github.com/Pratham-Sharma20/WensPaper"
-  }
-},
-{
-  "name": "Istem - Course Marketplace",
-  "desc": "A student-centric platform built with ISTEM stack for buying and selling academic courses, providing a secure and user-friendly experience.",
-  "image": "istem",
-  "category": "mern",
-  "links": {
-    "view": "#",
-    "code": "https://github.com/faisalbin09/istems-vibrant-platform"
-  }
-},
+
 {
   "name": "Eagle Coders - Student Community",
   "desc": "A dedicated website for a coding community of students, enabling event updates, resources sharing, and community building.",
@@ -177,16 +148,6 @@
   "links": {
     "view": "#",
     "code": "#"
-  }
-},
-{
-  "name": "Hubdub - Children's Medicine Site",
-  "desc": "A specialized e-commerce platform for children's medicine, offering health tips, prescriptions, and age-appropriate medicine recommendations.",
-  "image": "habdab",
-  "category": "mern",
-  "links": {
-    "view": "https://habdab.in/",
-    "code": "https://github.com/manitejabayya/HubDub"
   }
 },
 {
@@ -218,6 +179,16 @@
   "links": {
     "view": "https://bayyamaniteja.netlify.app/",
     "code": "https://github.com/manitejabayya/portfolio-maniteja"
+  }
+},
+{
+  "name": "Mani-CMS-A nextJS project",
+  "desc": "A NextJs website for a CMS project to manage the content of the People and generate the content for the website.",
+  "image": "maniCMS",
+  "category": "mern",
+  "links": {
+    "view": "https://mani-cms.vercel.app/",
+    "code": "https://github.com/manitejabayya/Mani-CMS"
   }
 }
 

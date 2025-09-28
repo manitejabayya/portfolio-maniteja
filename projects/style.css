@@ -317,6 +317,63 @@ header .navbar ul li a:hover{
 .backbtn .btn:hover i {
   transform: translateX(-8px);
 }
+/* No projects placeholder styles */
+.no-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40rem;
+  width: 100%;
+}
+
+.no-projects-content {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.no-projects-content i {
+  font-size: 6rem;
+  color: #ffd700;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.no-projects-content h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.no-projects-content p {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  max-width: 50rem;
+}
+
+@media (max-width: 768px) {
+  .no-projects-content {
+    padding: 3rem 1.5rem;
+  }
+  
+  .no-projects-content i {
+    font-size: 4rem;
+  }
+  
+  .no-projects-content h3 {
+    font-size: 2rem;
+  }
+  
+  .no-projects-content p {
+    font-size: 1.4rem;
+  }
+}
+
 /* work section ends */
 
 /* common media queries starts*/

@@ -931,6 +931,133 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
+/* project categories styles */
+.work .project-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 3rem 2rem;
+  justify-content: center;
+}
+
+.work .category-card {
+  flex: 1 1 35rem;
+  max-width: 45rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.work .category-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.work .category-card:hover::before {
+  opacity: 1;
+}
+
+.work .category-card:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+}
+
+.work .category-card .card-icon {
+  margin-bottom: 2rem;
+}
+
+.work .category-card .card-icon i {
+  font-size: 5rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+}
+
+.work .category-card .card-content h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.work .category-card .card-content p {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.work .category-card .card-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1.2rem 2.5rem;
+  border-radius: 3rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.work .category-card:hover .card-btn {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateX(0.5rem);
+}
+
+.work .category-card .card-btn i {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.work .category-card:hover .card-btn i {
+  transform: translateX(0.5rem);
+}
+
+/* Responsive design for project categories */
+@media (max-width: 768px) {
+  .work .project-categories {
+    gap: 2rem;
+    margin: 2rem 1rem;
+  }
+  
+  .work .category-card {
+    flex: 1 1 100%;
+    max-width: none;
+    padding: 2.5rem 2rem;
+  }
+  
+  .work .category-card .card-icon i {
+    font-size: 4rem;
+    padding: 1.5rem;
+  }
+  
+  .work .category-card .card-content h3 {
+    font-size: 2.2rem;
+  }
+  
+  .work .category-card .card-content p {
+    font-size: 1.4rem;
+  }
+}
+
 /* work section ends */
 
 /* experience section starts */

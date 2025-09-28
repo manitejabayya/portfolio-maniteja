@@ -65,5 +65,35 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }    
+    },
+    {
+        "name": "React Native",
+        "icon": "https://img.icons8.com/color/48/000000/react-native.png"
+    },
+    
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/color/48/000000/pandas.png"
+    },
+    {
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
+    },
+    {
+        "name": "Scikit-learn",
+        "icon": "https://img.icons8.com/color/48/000000/scikit-learn.png"
+    },
+     {
+        "name": "PowerBI",
+        "icon": "https://img.icons8.com/color/48/000000/power-bi.png"
+    },
+    {
+        "name": "Seaborn",
+        "icon": "https://img.icons8.com/color/48/000000/seaborn.png"
+    },
+    {
+        "name": "Matplotlib",
+        "icon": "https://img.icons8.com/color/48/000000/matplotlib.png"
+    }
+  
 ]
